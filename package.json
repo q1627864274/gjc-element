@@ -1,13 +1,13 @@
 {
-  "name": "@toy-element/workspace",
+  "name": "@gjc-element/workspace",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm --filter @toy-element/play dev",
+    "dev": "pnpm --filter @gjc-element/play dev",
     "story": "pnpm --filter @eric-ui/playground storybook",
-    "docs:dev": "pnpm --filter @toy-element/docs dev",
-    "docs:build": "pnpm --filter @toy-element/docs build",
+    "docs:dev": "pnpm --filter @gjc-element/docs dev",
+    "docs:build": "pnpm --filter @gjc-element/docs build",
     "test": "echo 'todo'",
     "build": "pnpm --filter eric-ui build"
   },
@@ -22,11 +22,11 @@
     "async-validator": "^4.2.5",
     "lodash-es": "^4.17.21",
     "vue": "^3.4.19",
-    "toy-element": "workspace:*",
-    "@toy-element/components": "workspace:*",
-    "@toy-element/hooks": "workspace:*",
-    "@toy-element/utils": "workspace:*",
-    "@toy-element/theme": "workspace:*"
+    "gjc-element": "workspace:*",
+    "@gjc-element/components": "workspace:*",
+    "@gjc-element/hooks": "workspace:*",
+    "@gjc-element/utils": "workspace:*",
+    "@gjc-element/theme": "workspace:*"
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.12",

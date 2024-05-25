@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "高仿 ElementPlus 组件库",
   description: "A VitePress Site",
-  base: "/toy-element/",
+  base: "/gjc-element/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

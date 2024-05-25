@@ -20,16 +20,16 @@ importers:
       '@popperjs/core':
         specifier: ^2.11.8
         version: 2.11.8
-      '@toy-element/components':
+      '@gjc-element/components':
         specifier: workspace:*
         version: link:packages/components
-      '@toy-element/hooks':
+      '@gjc-element/hooks':
         specifier: workspace:*
         version: link:packages/hooks
-      '@toy-element/theme':
+      '@gjc-element/theme':
         specifier: workspace:*
         version: link:packages/theme
-      '@toy-element/utils':
+      '@gjc-element/utils':
         specifier: workspace:*
         version: link:packages/utils
       async-validator:
@@ -38,7 +38,7 @@ importers:
       lodash-es:
         specifier: ^4.17.21
         version: 4.17.21
-      toy-element:
+      gjc-element:
         specifier: workspace:*
         version: link:packages/core
       vue:
