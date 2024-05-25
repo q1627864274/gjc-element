@@ -1,0 +1,17 @@
+{
+  "name": "@toy-element/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev Toy-Element",
+    "build": "vitepress build Toy-Element",
+    "preview": "vitepress preview Toy-Element"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "1.0.0-rc.44"
+  }
+}
