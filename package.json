@@ -8,7 +8,7 @@
     "story": "pnpm --filter @eric-ui/playground storybook",
     "docs:dev": "pnpm --filter @gjc-element/docs dev",
     "docs:build": "pnpm --filter @gjc-element/docs build",
-    "test": "echo 'todo'",
+    "test": "pnpm --filter @gjc-element/components test",
     "build": "pnpm --filter eric-ui build"
   },
   "keywords": [],
@@ -26,7 +26,7 @@
     "@gjc-element/components": "workspace:*",
     "@gjc-element/hooks": "workspace:*",
     "@gjc-element/utils": "workspace:*",
-    "@gjc-element/theme": "workspace:*"
+    "@gjc-element/theme": "workspace:*"  
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.12",

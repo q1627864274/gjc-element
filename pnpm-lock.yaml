@@ -17,9 +17,6 @@ importers:
       '@fortawesome/vue-fontawesome':
         specifier: ^3.0.6
         version: 3.0.6(@fortawesome/fontawesome-svg-core@6.5.2)(vue@3.4.27(typescript@5.4.5))
-      '@popperjs/core':
-        specifier: ^2.11.8
-        version: 2.11.8
       '@gjc-element/components':
         specifier: workspace:*
         version: link:packages/components
@@ -32,15 +29,18 @@ importers:
       '@gjc-element/utils':
         specifier: workspace:*
         version: link:packages/utils
+      '@popperjs/core':
+        specifier: ^2.11.8
+        version: 2.11.8
       async-validator:
         specifier: ^4.2.5
         version: 4.2.5
-      lodash-es:
-        specifier: ^4.17.21
-        version: 4.17.21
       gjc-element:
         specifier: workspace:*
         version: link:packages/core
+      lodash-es:
+        specifier: ^4.17.21
+        version: 4.17.21
       vue:
         specifier: ^3.4.19
         version: 3.4.27(typescript@5.4.5)
@@ -113,7 +113,11 @@ importers:
         specifier: 24.0.0
         version: 24.0.0
 
-  packages/core: {}
+  packages/core:
+    dependencies:
+      '@gjc-element/components':
+        specifier: workspace:*
+        version: link:../components
 
   packages/docs:
     devDependencies:
